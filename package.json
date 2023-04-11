@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev" : "git checkout module-4-solution && npm run test",
     "test": "node node_modules/mocha/bin/mocha ./test/**/*test.js",
     "test:module-1": "node node_modules/mocha/bin/mocha ./test/module-1/*test.js || true",
     "test:module-2": "node node_modules/mocha/bin/mocha ./test/module-2/*test.js || true",
